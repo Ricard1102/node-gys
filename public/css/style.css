@@ -223,7 +223,7 @@ h6 {
 
 @media (max-width: 768px) { 
   #hero .hero-logo img {
-
+    margin-top: 30px;
   }
  }
 
@@ -231,7 +231,7 @@ h6 {
 #hero .hero-logo img {
  
   min-width: 280px;
-  margin-top: 120px;
+  margin-top: 50px;
 
 }
 
@@ -266,6 +266,8 @@ h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+    margin-top: 80px;
+    height: 120%;
   }
 }
 
@@ -366,6 +368,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+ 
   max-height: 50px;
 }
 
@@ -379,12 +382,23 @@ h6 {
   #header #logo img {
     max-height: 40px;
   }
+
+/* CUSTOM*/
+#logo{
+  height: 140px;
+top:0;
+
+display: none;
 }
+
+}
+
 
 .is-sticky #header {
   background: rgb(24, 24, 24);
   opacity: 1;
   width: 100%;
+ 
   /* background: rgba(0, 0, 0, 0.85);*/
 }
 
@@ -454,7 +468,7 @@ h6 {
   float: right;
   /*  keeps big menu action on the right */
   margin: 5px 0;
-  
+
  
 }
 
