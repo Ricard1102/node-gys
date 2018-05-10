@@ -211,6 +211,7 @@ h6 {
     /* background:  url(../img/IMG_9641-min.JPG) top center fixed; */
     background:  url(../img/gys1.png)  bottom center fixed;
    background-size: 2600px 1000px;
+
   }
 }
 
@@ -223,7 +224,7 @@ h6 {
 
 @media (max-width: 768px) { 
   #hero .hero-logo img {
-    margin-top: 30px;
+    margin-top: 10px;
   }
  }
 
