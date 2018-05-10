@@ -1466,7 +1466,13 @@ blockquote{
 
 }
 
+#fleet .section-title{
+  color:white;
+}
 
+#fleet .section-description{
+  color: white;
+}
 
 
 @media (max-width: 600px)
@@ -1492,6 +1498,9 @@ blockquote{
   }
 
 }
+
+
+
 
 
 
